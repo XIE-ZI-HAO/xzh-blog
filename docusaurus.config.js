@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ZXK的个人技术博客",
+  title: "XZH的个人博客",
   tagline: "此博客是利用docusaurusV2框架搭建",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
