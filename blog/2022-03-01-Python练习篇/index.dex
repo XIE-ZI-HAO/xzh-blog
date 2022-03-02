@@ -1,0 +1,23 @@
+---
+slug: Python
+title: 😜Python练习😜
+authors: [XZH]
+tags: [Python练习]
+---
+
+个人练习 🐱‍🚀
+
+<!-- truncate -->
+
+``` Py
+:::tip
+
+import math //math数据库
+r = eval(import("请输入圆的半径："))
+print(r)
+s1 = math.pi * r *
+print("圆的面积s={0:.4f}","圆的半径 r ={0:.1f}".formst(s1,r))
+
+:::
+
+```
