@@ -11,7 +11,7 @@ tags: [java日常学习]
 
 ## java 入门
 
-```java
+```js
 package xxx;
 import java.util.Scanner;
     public class X
@@ -37,3 +37,49 @@ import java.util.Scanner;
 > Hello work
 
 :::
+
+## java 练习
+
+```js
+import java.util.Scanner; //导入的类
+public class LX {
+    public static  void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("请输入第一个整数：");
+        int num1 = sc.nextInt();
+        System.out.println("请输入第二个整数：");
+        int num2 = sc.nextInt();
+        int max =num1>num2?num1:num2; //如果num1大于num2，num1将和num2作比较
+        System.out.println("请输入整数最大的是："+max);
+    }
+}
+```
+
+```js
+import java.util.Scanner;
+public class W {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        String a=input.nextLine();  //nextline表示将空格后的也打印
+        String b=input.next();  //next表示不打印空格后的
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+
+```
+
+```js
+import java.util.Scanner;
+public class Dc {
+    public static void main(String[] args)
+    {
+      Scanner sc =new Scanner(System.in);
+        System.out.println("请输入一个数：");
+        int num= sc.nextInt();
+        String str =num%2==0?num+"是偶数":num+"是奇数"; //除2为0是偶数，否则则为奇数
+        System.out.println(str);
+    }
+
+```
