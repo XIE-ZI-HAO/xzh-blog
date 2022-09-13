@@ -16,7 +16,6 @@ string 模块中还定义了一些常用的属性，包含所有数字、字母�
 string.ascii_letters：生成所有大小写字母。
 import string
 print(string.ascii_letters)
-
 ```
 
 :::caution
@@ -28,101 +27,126 @@ print(string.ascii_letters)
 string.ascii_lowercase：#生成所有小写字母。
 import string
 print(string.ascii_lowercase)
+```
 
 :::caution
 执行结果：abcdefghijklmnopqrstuvwxyz
 :::
 
+```py
 ascii_uppercase：#生成所有大写字母。
 import string
 print(string.ascii_uppercase)
+```
 
 :::caution
 执行结果:ABCDEFGHIJKLMNOPQRSTUVWXYZ
 :::caution
 
+```py
 digits：#生成所有数字。
 import string
 print(string.digits)
+```
 
 :::caution
 执行结果：0123456789
 :::
 
+```py
 punctuation：#生成所有标点符号。
 import string
 print(string.punctuation)
+```
 
 :::caution
 执行结果：!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 :::
 
+```py
 random 模块
 Python 中的 random 模块是用于生成随机数的，下面将详细介绍 random 模块的常用方法。
 random.random()：
+```
 
 :::danger
 #生成 [0,1) 之间的随机浮点数。
 :::
 
+```py
 import random
 print(random.random())     
+```
 
 :::danger
 # 生成一个随机数，每次运行的结果不一样
 :::danger
 
+```py
 random.uniform(a,b)：
+```
 
 :::danger
 #生成一个指定范围内的随机符点数，两个参数其中一个是上限，一个是下限。如果a > b，则生成的随机数 n：b <= n <= a。如果a < b， 则a <= n <= b。
 :::
 
+```py
 import random
 print(random.uniform(1,10))
 print(random.uniform(10,1))
 random.randint(a, b)：
+```
 
 :::danger
 #生成一个指定范围内的整数。其中参数 a 是下限，参数 b 是上限，生成的随机数 n：a <= n <= b。
 :::
 
+```py
 import random
 print(random.randint(1,10))
 random.choice(sequence)：
+```
 
 :::danger
 #从序列 sequene 中获取一个随机元素。
 :::
 
+```py
 import random
 list1 = [1,2,3,4]
 print(random.choice(list1)) 
+```
 
 :::danger
 # 从列表中随机获取一个元素
 :::
 
+```py
 random.randrange([start], stop[, step])：
+```
 
 :::danger
 #等价于 random.choice(range([start], stop[, step]))，从递增序列中获取一个元素。
 :::danger
 
+```py
 import random
 print(random.randrange(1,10,2))    
+```
 
 :::danger
  # 从 1,3,5,7,9 中选一个数
 :::
 
+```py
 random.shuffle(iter)：
+```
 
 :::danger
 #将可迭代对象内的元素随机排列。
 :::
 
+```py
 list1 = [1,2,3,4]
 print(random.shuffle(list1))
-
 ```
